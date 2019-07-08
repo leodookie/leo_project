@@ -12,12 +12,27 @@ mongoose.connect('mongodb://localhost/node-graphql', { promiseLibrary: require('
   .then(() =>  console.log('connection successful'))
   .catch((err) => console.error(err));
 
+
+
+var schema = require('./graphql/bookSchemas');
+var cors = require("cors");
+
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 var app = express();
 
-// view engine setup
+//cors = require('cors');
+//app.use(cors());
+// to change your ports for different cors stuff:
+//app.set('port', process.env.PORT || 3001);
+app.listen(app.get('port'), function() { 
+  console.log('we are listening on: ', 
+  app.get('port'))
+
+
+
+});// view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
@@ -29,6 +44,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+
 app.use('*', cors());
 app.use('/graphql', cors(), graphqlHTTP({
   schema: schema,

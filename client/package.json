@@ -7,11 +7,15 @@
     "bootstrap": "^4.3.1",
     "graphql": "^14.2.1",
     "graphql-tag": "^2.10.1",
+    "jquery": "^1.9.1",
+    "missing": "0.0.1",
+    "popper.js": "^1.15.0",
     "react": "^16.8.6",
     "react-apollo": "^2.5.4",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "typescript": "^3.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
