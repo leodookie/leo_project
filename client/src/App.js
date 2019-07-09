@@ -31,6 +31,7 @@ class App extends Component {
                     LIST OF BOOKS
                   </h3>
                   <h4><Link to="/create">Add Book</Link></h4>
+                  <h4><Link to="/create_cliente">Adiciona Cliente</Link></h4>
                 </div>
                 <div className="panel-body">
                   <table className="table table-stripe">

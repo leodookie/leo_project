@@ -9,6 +9,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Edit from './components/Edit';
 import Create from './components/Create';
+import Create_cliente from './components/Create_cliente';
 import Show from './components/Show';
 
 const client = new ApolloClient({ uri: 'http://35.199.123.191/graphql' });
@@ -21,6 +22,7 @@ ReactDOM.render(
                 <Route path='/edit/:id' component={Edit} />
                 <Route path='/create' component={Create} />
                 <Route path='/show/:id' component={Show} />
+                <Route path='/create_cliente' component={Create_cliente} />
             </div>
         </Router>
     </ApolloProvider>, 
