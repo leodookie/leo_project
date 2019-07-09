@@ -98,4 +98,4 @@ class Create_cliente extends Component {
     }
   }
   
-  export default Create;
+  export default Create_cliente;
