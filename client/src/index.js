@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ApolloClient from 'apollo-client';
+import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from 'react-apollo';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
@@ -12,7 +12,7 @@ import Create from './components/Create';
 import Create_cliente from './components/Create_cliente';
 import Show from './components/Show';
 
-const client = new ApolloClient({ uri: ' http://localhost:3000/graphql' });
+const client = new ApolloClient({ uri: ' http://localhost:3000/graphql/' });
 
 ReactDOM.render(
     <ApolloProvider client={client}>
