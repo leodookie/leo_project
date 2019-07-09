@@ -44,7 +44,7 @@ class App extends Component {
                       {data.books.map((book, index) => (
                         <tr key={index}>
                           <td><Link to={`/show/${book._id}`}>{book.title}</Link></td>
-                          <td>{book.title}</td>
+                          <td>{book.Author}</td>
                         </tr>
                       ))}
                     </tbody>
