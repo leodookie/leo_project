@@ -31,7 +31,7 @@ class Show extends Component {
 
   render() {
     return (
-        <Query pollInterval={500} query={GET_BOOK} variables={{ bookId: this.props.match.params.id }}>
+        <Query pollInterval={500} query={GET_BOOK} variables={{ /*bookId: this.props.match.params.id*/ }}>
             {({ loading, error, data }) => {
                 if (loading) return 'Loading...';
                 if (error) return `Error! ${error.message}`;
