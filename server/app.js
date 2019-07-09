@@ -9,7 +9,7 @@ var schema = require('./graphql/bookSchemas');
 var cors = require("cors");
 
 mongoose.connect('mongodb://localhost/node-graphql', { promiseLibrary: require('bluebird'), useNewUrlParser: true })
-  .then(() =>  console.log('connection successful'))
+  .then(() =>  console.log('connection successful leonardo'))
   .catch((err) => console.error(err));
 
 
