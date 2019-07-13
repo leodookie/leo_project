@@ -7,6 +7,8 @@ import Create from './Create';
 
 import { useState } from 'react';
 
+
+function Create_cliente {
 const App = () => {
   const [modalOpen, setModalOpen] = useState(false);
 
@@ -23,3 +25,7 @@ const App = () => {
     </div>
   );
 }
+
+}
+
+export default Create_cliente;
