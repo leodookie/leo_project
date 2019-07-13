@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 
 //TESTE
-class App extends Component {
+class ApCreate_cliente extends Component {
     state = {
       modalOpen: false,
     }
