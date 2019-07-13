@@ -5,28 +5,21 @@ import { Link } from 'react-router-dom';
 import Create from './Create';
 
 
-//TESTE
-class Create_cliente extends Component {
-    state = {
-      modalOpen: false,
-    }
-  
-    render() {
-      return (
-        <div>
-          <button onClick={() => this.setState({ modalOpen: true })}>
-            Exibir modal
-          </button>
-          <button onClick={() => this.setState({ modalOpen: false })}>
-            Remover modal
-          </button>
-  
-          { this.state.modalOpen && <Create /> }
-        </div>
-      );
-    }
-  }
+import { useState } from 'react';
 
+const App = () => {
+  const [modalOpen, setModalOpen] = useState(false);
 
-   
-  export default Create_cliente;
+  return (
+    <div>
+      <button onClick={() => setModalOpen(true)}>
+        Exibir modal
+      </button>
+      <button onClick={() => setModalOpen(false)}>
+        Remover modal
+      </button>
+
+      { modalOpen && <Create /> }
+    </div>
+  );
+}
