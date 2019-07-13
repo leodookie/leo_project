@@ -7,7 +7,7 @@ import Create from './Create';
 
 import { useState } from 'react';
 
-const Create_client = () => {
+const App = () => {
   const [modalOpen, setModalOpen] = useState(false);
 
   return (
