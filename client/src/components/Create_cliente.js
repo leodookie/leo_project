@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 
 //TESTE
-class ApCreate_cliente extends Component {
+class Create_cliente extends Component {
     state = {
       modalOpen: false,
     }
@@ -25,3 +25,7 @@ class ApCreate_cliente extends Component {
       );
     }
   }
+
+
+   
+  //export default Create_cliente;
