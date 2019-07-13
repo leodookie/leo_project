@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import gql from "graphql-tag";
 import { Mutation } from "react-apollo";
 import { Link } from 'react-router-dom';
+import Create from './Create';
 
 
 //TESTE
@@ -20,7 +21,7 @@ class Create_cliente extends Component {
             Remover modal
           </button>
   
-          { this.state.modalOpen && <Modal /> }
+          { this.state.modalOpen && <Create /> }
         </div>
       );
     }
