@@ -33,7 +33,7 @@ class App extends Component {
                   </h3>
                   <div>Testando quebra de linha<br />Testando</div>
                   <div class="container">
-                  <div class="teste_leo">    
+                  <div class="testeleo">    
                         <Feed> Box 1 </Feed> 
                   </div>
                   </div>
