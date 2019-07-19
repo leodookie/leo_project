@@ -11,7 +11,7 @@ import { useState } from 'react';
 
 
 function Createcliente () {
-  const [modalOpen, setTeste] = useState(false);
+  const [modalOpen, setTeste] = useState(true);
 
   return (
     <div>
