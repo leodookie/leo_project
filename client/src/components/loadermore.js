@@ -3,6 +3,7 @@ import gql from "graphql-tag";
 import { Mutation } from "react-apollo";
 import { Link } from 'react-router-dom';
 import Create from './Create';
+import './loadmore.css'
 
 
 import { useState } from 'react';
@@ -14,20 +15,25 @@ function Loadermore () {
   const [modalOpen, setTeste] = useState(false);
 
   return (
-    <div>
-      <button onClick={() => setTeste(true)}>
-        Exibir modal
-      </button>
-      <button onClick={() => setTeste(false)}>
-        Remover modal
-      </button>
-  
-      { modalOpen && <Create /> }
+
+    $(document).ready(function(){
+      $(".content").slice(0, 4).show();
+      $("#loadMore").on("click", function(e){
+        e.preventDefault();
+        $(".content:hidden").slice(0, 4).slideDown();
+        if($(".content:hidden").length == 0) {
+          $("#loadMore").text("No Content").addClass("noContent");
+        }
+      });
+      
+    })
 
 
-      <h4><Link to="/" className="btn btn-primary">Voltar</Link></h4>
-    </div>
+
   );
+
+
+
 }
 
 
