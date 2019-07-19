@@ -31,7 +31,7 @@ class App extends Component {
                   <h3 className="panel-title">
                     LIST OF BOOKS
                   </h3>
-                  <div>Testando quebra de linha<br />Testando</div>
+                  <div>Testando quebra de linha<br /> GABI SUBIU</div>
                   <div class="container">
                   <div class="testeleo">    
                         <Feed> Box 1 </Feed> 
