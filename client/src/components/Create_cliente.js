@@ -8,24 +8,27 @@ import Create from './Create';
 import { useState } from 'react';
 
 
-function Create_cliente () {
-const App = () => {
-  const [modalOpen, setModalOpen] = useState(false);
+
+
+function Createcliente () {
+  const [modalOpen, setTeste] = useState(false);
 
   return (
     <div>
-      <button onClick={() => setModalOpen(true)}>
+      <button onClick={() => setTeste(true)}>
         Exibir modal
       </button>
-      <button onClick={() => setModalOpen(false)}>
+      <button onClick={() => setTeste(false)}>
         Remover modal
       </button>
-
+  
       { modalOpen && <Create /> }
+
+
+      <h4><Link to="/" className="btn btn-primary">Voltar</Link></h4>
     </div>
   );
 }
 
-}
 
-export default Create_cliente;
+export { Createcliente } ;
