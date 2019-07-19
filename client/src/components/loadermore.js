@@ -10,7 +10,7 @@ import { useState } from 'react';
 
 
 
-function Createcliente () {
+function Loadermore () {
   const [modalOpen, setTeste] = useState(false);
 
   return (
@@ -31,4 +31,4 @@ function Createcliente () {
 }
 
 
-export { Createcliente } ;
+export { Loadermore } ;
