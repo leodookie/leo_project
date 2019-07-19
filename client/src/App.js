@@ -33,11 +33,10 @@ class App extends Component {
                   </h3>
                   <div>Testando quebra de linha<br />Testando</div>
                   <div class="container">
-  <div class="flex">
-    <div class="content"> <Feed> Box 1 </Feed> </div>
-  </div>
-</div>
-<div>Fim do teste<br />Testando</div>
+                        <Feed> Box 1 </Feed> 
+                  </div>
+                        </div>
+                  <div>Fim do teste</div>
                   <h4><Link to="/create">Add Book</Link></h4>
                   <h4><Link to="/create_cliente">Adiciona Cliente</Link></h4>
                 </div>
@@ -60,7 +59,7 @@ class App extends Component {
                   </table>
                 </div>
               </div>
-            </div>
+        
           );
         }}
       </Query>
