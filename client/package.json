@@ -7,7 +7,7 @@
     "bootstrap": "^4.3.1",
     "graphql": "^14.2.1",
     "graphql-tag": "^2.10.1",
-    "jquery": "^1.9.1",
+    "jquery": "^3.5.0",
     "missing": "0.0.1",
     "popper.js": "^1.15.0",
     "react": "^16.8.6",
