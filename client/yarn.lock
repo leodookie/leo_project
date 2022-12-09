@@ -5766,6 +5766,11 @@ joi@^11.1.1:
     isemail "3.x.x"
     topo "2.x.x"
 
+jquery@^1.9.1:
+  version "1.12.4"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-1.12.4.tgz#01e1dfba290fe73deba77ceeacb0f9ba2fec9e0c"
+  integrity sha512-UEVp7PPK9xXYSk8xqXCJrkXnKZtlgWkd2GsAQbMRFK6S/ePU2JN5G2Zum8hIVjzR3CpdfSqdqAzId/xd4TJHeg==
+
 js-levenshtein@^1.1.3:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/js-levenshtein/-/js-levenshtein-1.1.6.tgz#c6cee58eb3550372df8deb85fad5ce66ce01d59d"
@@ -6413,6 +6418,11 @@ minizlib@^1.1.1:
   integrity sha512-7+4oTUOWKg7AuL3vloEWekXY2/D20cevzsrNT2kGWm+39J9hGTCBv8VI5Pm5lXZ/o3/mdR4f8rflAPhnQb8mPA==
   dependencies:
     minipass "^2.2.1"
+
+missing@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/missing/-/missing-0.0.1.tgz#2b8b2779e68ca8969a204cba828233bfc208d381"
+  integrity sha512-bFF/7WSdAqe/jx3NVEvCkLJwaYH58alBguvni6csDANEPbcyEVRo69XwWv1dGQhsU1owC243VO6RgqH4E4nr3w==
 
 mississippi@^3.0.0:
   version "3.0.0"
@@ -7237,6 +7247,11 @@ pnp-webpack-plugin@1.2.1:
   dependencies:
     ts-pnp "^1.0.0"
 
+popper.js@^1.15.0:
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.16.1.tgz#2a223cb3dc7b6213d740e40372be40de43e65b1b"
+  integrity sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ==
+
 portfinder@^1.0.9:
   version "1.0.20"
   resolved "https://registry.yarnpkg.com/portfinder/-/portfinder-1.0.20.tgz#bea68632e54b2e13ab7b0c4775e9b41bf270e44a"
@@ -8053,10 +8068,15 @@ q@^1.1.2:
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
-qs@6.5.2, qs@~6.5.2:
+qs@6.5.2:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+
+qs@~6.5.2:
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 querystring-es3@^0.2.0:
   version "0.2.1"
@@ -9685,6 +9705,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+typescript@^3.5.2:
+  version "3.9.10"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.10.tgz#70f3910ac7a51ed6bef79da7800690b19bf778b8"
+  integrity sha512-w6fIxVE/H1PkLKcCPsFqKE7Kv7QUwhU8qQY2MueZXWx5cPZdwFupLgKK3vntcK98BtNHZtAF4LA/yl2a7k8R6Q==
 
 ua-parser-js@^0.7.18:
   version "0.7.19"
